@@ -16,7 +16,7 @@ phrase_entry.pack(pady=20)
 phrase_entry.bind('<Return>', encrypt_input)
 phrase_entry.focus_set()  
 
-encrypt_button = tk.Button(root, text="Encrypt", command=encrypt_input, fg='#32CD32', bg='black')
+encrypt_button = tk.Button(root, text="Generate the sha 256 hash", command=encrypt_input, fg='#32CD32', bg='black')
 encrypt_button.pack(pady=20)
 
 result_label = tk.Label(root, text="", fg='#32CD32', bg='black')
