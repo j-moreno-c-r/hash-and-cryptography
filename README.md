@@ -32,4 +32,4 @@ To install correctly the diabolical tkinter on you env use in the hash-and-crypt
 ```bash
 sudo apt-get install python3-tk
 ```
-obs: the second version of the zenitpolar tool is in beta for now...
+
